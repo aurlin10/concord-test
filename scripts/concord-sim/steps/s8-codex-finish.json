@@ -1,0 +1,11 @@
+{
+  "task_id": "TODO-1",
+  "agent_id": "codex:7e2c51f1",
+  "expected_version": 3,
+  "outcome": "review_ready",
+  "what_changed": "Added removeTodo(id) to src/todo.js with a test, on top of the toggleTodo handoff.",
+  "changed_files": ["src/todo.js", "test/todo.test.js"],
+  "tests_run": ["npm test: 4 passed"],
+  "needs_review_from": ["claude-code:c7db22ab"],
+  "diff_size": "+12 / -1"
+}

@@ -1,0 +1,9 @@
+{
+  "task_id": "TODO-2",
+  "title": "Add removeTodo to the todo module",
+  "kind": "codex",
+  "agent_id": "codex:7e2c51f1",
+  "summary": "Add a removeTodo(id) function",
+  "expected_files": ["src/todo.js"],
+  "modules": ["todo"]
+}

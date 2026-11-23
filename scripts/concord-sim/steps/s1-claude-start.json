@@ -1,0 +1,8 @@
+{
+  "task_id": "TODO-1",
+  "title": "Add toggleTodo to the todo module",
+  "kind": "claude-code",
+  "summary": "Add a toggleTodo(id) function and a test",
+  "expected_files": ["src/todo.js", "test/todo.test.js"],
+  "modules": ["todo"]
+}

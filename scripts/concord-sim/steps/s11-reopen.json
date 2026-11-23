@@ -1,0 +1,7 @@
+{
+  "task_id": "TODO-1",
+  "action": "reopen",
+  "agent_id": "claude-code:c7db22ab",
+  "expected_version": 4,
+  "reason": "Review finding: duplicate ids after removeTodo (see finding on TODO-1)."
+}

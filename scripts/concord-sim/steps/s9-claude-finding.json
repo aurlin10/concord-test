@@ -1,0 +1,7 @@
+{
+  "operation": "record",
+  "task_id": "TODO-1",
+  "kind": "finding",
+  "agent_id": "claude-code:c7db22ab",
+  "content": "Review: addTodo computes id as todos.length + 1. After removeTodo, the next addTodo can reuse an id still in use (add 1,2 -> remove 1 -> add gives id 2 twice). Use a monotonic counter instead."
+}

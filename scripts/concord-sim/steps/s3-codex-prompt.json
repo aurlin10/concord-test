@@ -1,0 +1,8 @@
+{
+  "operation": "prompt",
+  "agent_id": "codex:7e2c51f1",
+  "to_agent_id": "claude-code:c7db22ab",
+  "task_id": "TODO-2",
+  "content": "You hold src/todo.js for TODO-1. I need to add removeTodo(id) there. Can I put it in a new file src/remove.js that imports the todos array instead, or will you hand src/todo.js over when you finish?",
+  "idempotency_key": "codex-ask-1"
+}

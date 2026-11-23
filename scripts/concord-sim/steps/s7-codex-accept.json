@@ -1,0 +1,6 @@
+{
+  "task_id": "TODO-1",
+  "action": "accept",
+  "agent_id": "codex:7e2c51f1",
+  "expected_version": 2
+}

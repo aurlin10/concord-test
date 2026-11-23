@@ -1,0 +1,11 @@
+{
+  "task_id": "TODO-1",
+  "agent_id": "codex:7e2c51f1",
+  "expected_version": 5,
+  "outcome": "complete",
+  "what_changed": "Fixed the review finding: addTodo now uses a monotonic nextId counter, so ids stay unique after removeTodo. Added a regression test.",
+  "changed_files": ["src/todo.js", "test/todo.test.js"],
+  "tests_run": ["npm test: 5 passed"],
+  "decisions": ["Monotonic counter rather than max(id)+1, so a removed id is never reused"],
+  "provenance": [{ "field": "tests_run", "source": "local npm test run" }]
+}
